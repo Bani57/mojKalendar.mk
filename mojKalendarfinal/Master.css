@@ -1,0 +1,93 @@
+﻿@font-face
+{
+    font-family: 'CMU Serif';
+    src: url(Fonts/cmunrm.ttf) format('truetype');
+}
+body
+{
+    margin: 0;
+    font-family: 'CMU Serif',serif;
+}
+#form1
+{
+    min-height: 100%;
+    position: relative;
+}
+.lightgray
+{
+    background-color: #DDDDDD;
+}
+#content
+{
+    padding-bottom: 96px;
+}
+html,body
+{
+    margin: 0;
+    height: 100%;
+}
+header
+{
+    margin: 0;
+    width: 100%;
+    height: 96px;
+    background: linear-gradient(to right,#382d82 20%,#3498DB);
+}
+#logo
+{
+    width: 80px;
+    height: 80px;
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 1%;
+}
+#title
+{
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 600;
+    position: relative;
+    top: 12px;
+    left: 2%;
+}
+#pages
+{
+    display: inline-block;
+    float: right;
+    overflow: auto;
+    position: relative;
+    top: 26px;
+    right: 2%;
+}
+.page
+{
+    margin: 20px;
+    font-size: 32px;
+}
+.pageCurrent
+{
+    margin: 20px;
+    font-size: 32px;
+    color: white;
+}
+footer
+{
+    position: absolute;
+    bottom:0;
+    margin: 0;
+    width: 100%;
+    height: 96px;
+    font-size: 32px;
+    font-family: 'CMU Serif',serif;
+    background: linear-gradient(to right,#382d82 5%,#3498DB 45%,#382d82);
+    text-align:center;
+}
+footer span
+{
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    top: 28px;
+    
+}

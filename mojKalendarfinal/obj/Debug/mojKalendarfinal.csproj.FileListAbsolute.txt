@@ -1,0 +1,40 @@
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\csc.exe
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.CSharp.Core.targets
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\System.Collections.Immutable.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\System.Reflection.Metadata.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\vbc.exe
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\VBCSCompiler.exe
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\roslyn\VBCSCompiler.exe.config
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\mojKalendarfinal.dll.config
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\mojKalendarfinal.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\mojKalendarfinal.pdb
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\obj\Debug\mojKalendarfinal.csprojResolveAssemblyReference.cache
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\obj\Debug\mojKalendarfinal.dll
+d:\users\андреј јанчевски\documents\visual studio 2015\Projects\mojKalendarfinal\mojKalendarfinal\obj\Debug\mojKalendarfinal.pdb
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\csc.exe
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\vbc.exe
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\mojKalendarfinal.dll.config
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\mojKalendarfinal.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\mojKalendarfinal.pdb
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\obj\Debug\mojKalendarfinal.csprojResolveAssemblyReference.cache
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\obj\Debug\mojKalendarfinal.dll
+C:\Users\Atanas\Desktop\IT Proekt\mojKalendarfinal\obj\Debug\mojKalendarfinal.pdb

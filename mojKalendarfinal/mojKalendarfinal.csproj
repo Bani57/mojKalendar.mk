@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9C1E3C07-D6D6-40C4-AE86-9919C8F16DA1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>mojKalendarfinal</RootNamespace>
+    <AssemblyName>mojKalendarfinal</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\KalendarDB.mdf" />
+    <Content Include="App_Data\KalendarDB_log.ldf">
+      <DependentUpon>KalendarDB.mdf</DependentUpon>
+    </Content>
+    <Content Include="Cryptography.asmx" />
+    <Content Include="Images\1.jpg" />
+    <Content Include="Images\10.jpg" />
+    <Content Include="Images\11.jpg" />
+    <Content Include="Images\12.jpg" />
+    <Content Include="Images\2.jpg" />
+    <Content Include="Images\3.jpg" />
+    <Content Include="Images\4.jpg" />
+    <Content Include="Images\5.jpg" />
+    <Content Include="Images\6.jpg" />
+    <Content Include="Images\7.jpg" />
+    <Content Include="Images\8.jpg" />
+    <Content Include="Images\9.jpg" />
+    <Content Include="Images\calendar.png" />
+    <Content Include="Images\lines.png" />
+    <Content Include="Images\paper.png" />
+    <Content Include="Kalendar.aspx" />
+    <Content Include="Kalendar.css" />
+    <Content Include="Login.aspx" />
+    <Content Include="Login.css" />
+    <Content Include="Master.css" />
+    <Content Include="packages.config" />
+    <Content Include="Kalendar.Master" />
+    <Content Include="Fonts\lmroman10-bold.otf" />
+    <Content Include="Fonts\lmroman10-bolditalic.otf" />
+    <Content Include="Fonts\lmroman10-italic.otf" />
+    <Content Include="Fonts\lmroman10-regular.otf" />
+    <Content Include="Fonts\lmroman12-bold.otf" />
+    <Content Include="Fonts\lmroman12-italic.otf" />
+    <Content Include="Fonts\lmroman12-regular.otf" />
+    <Content Include="Fonts\lmroman17-regular.otf" />
+    <Content Include="Fonts\lmroman5-bold.otf" />
+    <Content Include="Fonts\lmroman5-regular.otf" />
+    <Content Include="Fonts\lmroman6-bold.otf" />
+    <Content Include="Fonts\lmroman6-regular.otf" />
+    <Content Include="Fonts\lmroman7-bold.otf" />
+    <Content Include="Fonts\lmroman7-italic.otf" />
+    <Content Include="Fonts\lmroman7-regular.otf" />
+    <Content Include="Fonts\lmroman8-bold.otf" />
+    <Content Include="Fonts\lmroman8-italic.otf" />
+    <Content Include="Fonts\lmroman8-regular.otf" />
+    <Content Include="Fonts\lmroman9-bold.otf" />
+    <Content Include="Fonts\lmroman9-italic.otf" />
+    <Content Include="Fonts\lmroman9-regular.otf" />
+    <Content Include="Fonts\lmromancaps10-oblique.otf" />
+    <Content Include="Fonts\lmromancaps10-regular.otf" />
+    <Content Include="Fonts\lmromandemi10-oblique.otf" />
+    <Content Include="Fonts\lmromandemi10-regular.otf" />
+    <Content Include="Fonts\lmromandunh10-oblique.otf" />
+    <Content Include="Fonts\lmromandunh10-regular.otf" />
+    <Content Include="Fonts\lmromanslant10-bold.otf" />
+    <Content Include="Fonts\lmromanslant10-regular.otf" />
+    <Content Include="Fonts\lmromanslant12-regular.otf" />
+    <Content Include="Fonts\lmromanslant17-regular.otf" />
+    <Content Include="Fonts\lmromanslant8-regular.otf" />
+    <Content Include="Fonts\lmromanslant9-regular.otf" />
+    <Content Include="Fonts\lmromanunsl10-regular.otf" />
+    <Content Include="Fonts\cmunbbx.ttf" />
+    <Content Include="Fonts\cmunbi.ttf" />
+    <Content Include="Fonts\cmunbl.ttf" />
+    <Content Include="Fonts\cmunbmo.ttf" />
+    <Content Include="Fonts\cmunbmr.ttf" />
+    <Content Include="Fonts\cmunbso.ttf" />
+    <Content Include="Fonts\cmunbsr.ttf" />
+    <Content Include="Fonts\cmunbtl.ttf" />
+    <Content Include="Fonts\cmunbto.ttf" />
+    <Content Include="Fonts\cmunbx.ttf" />
+    <Content Include="Fonts\cmunbxo.ttf" />
+    <Content Include="Fonts\cmunci.ttf" />
+    <Content Include="Fonts\cmunit.ttf" />
+    <Content Include="Fonts\cmunobi.ttf" />
+    <Content Include="Fonts\cmunobx.ttf" />
+    <Content Include="Fonts\cmunorm.ttf" />
+    <Content Include="Fonts\cmunoti.ttf" />
+    <Content Include="Fonts\cmunrb.ttf" />
+    <Content Include="Fonts\cmunrm.ttf" />
+    <Content Include="Fonts\cmunsi.ttf" />
+    <Content Include="Fonts\cmunsl.ttf" />
+    <Content Include="Fonts\cmunso.ttf" />
+    <Content Include="Fonts\cmunss.ttf" />
+    <Content Include="Fonts\cmunssdc.ttf" />
+    <Content Include="Fonts\cmunst.ttf" />
+    <Content Include="Fonts\cmunsx.ttf" />
+    <Content Include="Fonts\cmuntb.ttf" />
+    <Content Include="Fonts\cmunti.ttf" />
+    <Content Include="Fonts\cmuntt.ttf" />
+    <Content Include="Fonts\cmuntx.ttf" />
+    <Content Include="Fonts\cmunui.ttf" />
+    <Content Include="Fonts\cmunvi.ttf" />
+    <Content Include="Fonts\cmunvt.ttf" />
+    <None Include="Properties\PublishProfiles\local.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\CryptographyReference\Cryptography.wsdl" />
+    <Content Include="Register.css" />
+    <Content Include="Web References\CryptographyReference\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Register.aspx" />
+    <None Include="Web References\CryptographyReference\Cryptography.disco" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cryptography.asmx.cs">
+      <DependentUpon>Cryptography.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Kalendar.aspx.cs">
+      <DependentUpon>Kalendar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kalendar.aspx.designer.cs">
+      <DependentUpon>Kalendar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kalendar.Master.cs">
+      <DependentUpon>Kalendar.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kalendar.Master.designer.cs">
+      <DependentUpon>Kalendar.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\CryptographyReference\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:2313/Cryptography.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CryptographyReference\</RelPath>
+      <UpdateFromURL>http://localhost:2313/Cryptography.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>mojKalendarfinal_CryptographyReference_Cryptography</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2313</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:2313/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

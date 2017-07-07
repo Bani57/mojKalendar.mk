@@ -1,0 +1,55 @@
+﻿@font-face
+{
+    font-family: 'CMU Serif';
+    src: url(Fonts/cmunrm.ttf) format('truetype');
+}
+.label
+{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -74px;
+    padding: 5px 0;
+    width: 25%;
+    height: 54px;
+    text-align: center;
+    font-size: larger;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    color: white;
+    font-weight: bold;
+}
+.button
+{
+    font-family: 'CMU Serif',serif;
+    font-size: larger; 
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #3498DB;
+    border-bottom: 5px solid #2980B9;
+    text-shadow: 0px -2px #2980B9;
+}
+.button:active
+{
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+.textbox
+{
+  font-family: 'CMU Serif',serif;
+  font-size: large;
+  border-radius: 3px;
+  border: rgba(0,0,0,.3) 2px solid;
+  box-sizing: border-box;
+}
+.textbox:focus
+{
+  outline:none;
+  border:rgba(24,149,215,1) 2px solid;
+  color:rgba(24,149,215,1);
+}

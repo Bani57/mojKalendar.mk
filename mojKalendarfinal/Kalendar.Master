@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Kalendar.master.cs" Inherits="mojKalendarfinal.Kalendar" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="~/Master.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header>
+            <img id="logo" src="Images/calendar.png"/>
+            <span id="title">mojKalendar.mk</span>
+            <nav id="pages">
+                <asp:Label class="page" runat="server" ID="lblRegister">Register</asp:Label>
+                <asp:Label class="page" runat="server" ID="lblLogin">Login</asp:Label>
+                <asp:Label class="page" runat="server" ID="lblCalendar">Calendar</asp:Label>
+            </nav>
+        </header>
+    <div id="content">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <footer><span>Факултет за информатички науки и компјутерско инженерство - Скопје 2017</span></footer>
+    </form>
+</body>
+</html>
