@@ -4,15 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:Label class=welcome ID="lblWelcome" runat="server" CssClass="welcome"></asp:Label>
-    <br />
-    &nbsp;&nbsp;&nbsp;
     <asp:Calendar class=calendar align="center" ID="calEvents" runat="server" ShowGridLines="True" Height="500px" Width="50%" BorderWidth="5px" OnVisibleMonthChanged="calEvents_VisibleMonthChanged" OnSelectionChanged="calEvents_SelectionChanged" BorderColor="#757575" BorderStyle="Groove">
         <DayHeaderStyle BorderWidth="3px" />
         <DayStyle BorderWidth="3px" />
         <OtherMonthDayStyle ForeColor="Gray" />
     </asp:Calendar>
     <asp:Image class=image ID="imgSide" runat="server" ImageUrl="~/Images/6.jpg"/>
-    <br />
     <div id="buttons">
     <asp:Button CssClass="button green" ID="btnSignOut" runat="server" OnClick="btnSignOut_Click" Text="Sign out" CausesValidation="False" />
     <asp:Button CssClass="button red" ID="btnCustomize" runat="server" OnClick="btnCustomize_Click" Text="Customize calendar" CausesValidation="False" />
@@ -164,7 +161,7 @@
                     <td>
                         <asp:Label ID="lblDate" runat="server"></asp:Label>
                     </td>
-                    <td>&nbsp;</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>Enter name of event:</td>
@@ -188,11 +185,10 @@
                     <td>When will it start?</td>
                     <td>
                         <asp:DropDownList CssClass="dropdown yellow" ID="ddlStartHours" runat="server">
-                        </asp:DropDownList>
-                        &nbsp;:&nbsp;<asp:DropDownList CssClass="dropdown yellow" ID="ddlStartMinutes" runat="server">
+                        </asp:DropDownList><span id="time">:</span><asp:DropDownList CssClass="dropdown yellow" ID="ddlStartMinutes" runat="server">
                         </asp:DropDownList>
                     </td>
-                    <td>&nbsp;</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td>
@@ -201,9 +197,8 @@
                     <td>
                         <asp:Button ID="btnClearEvent" runat="server" OnClick="btnClearEvent_Click" Text="Clear info" CssClass="button2 yellow" CausesValidation="False" />
                     </td>
-                    <td>&nbsp;</td>
+                    <td></td>
                 </tr>
             </table>
         </asp:Panel>
-    <br />
 </asp:Content>

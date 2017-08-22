@@ -20,6 +20,11 @@ body
 #content
 {
     padding-bottom: 96px;
+     text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 html,body
 {
@@ -32,6 +37,7 @@ header
     width: 100%;
     height: 96px;
     background: linear-gradient(to right,#382d82 20%,#3498DB);
+    text-shadow: none;
 }
 #logo
 {
@@ -82,6 +88,7 @@ footer
     font-family: 'CMU Serif',serif;
     background: linear-gradient(to right,#382d82 5%,#3498DB 45%,#382d82);
     text-align:center;
+    text-shadow: none;
 }
 footer span
 {
