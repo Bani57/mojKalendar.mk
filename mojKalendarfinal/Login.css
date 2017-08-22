@@ -3,6 +3,10 @@
     font-family: 'CMU Serif';
     src: url(Fonts/cmunrm.ttf) format('truetype');
 }
+table
+{
+    text-shadow: none;
+}
 .label
 {
     display: flex;
@@ -21,6 +25,7 @@
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     color: white;
+    text-shadow: none;
     font-weight: bold;
 }
 .button

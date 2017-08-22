@@ -34,8 +34,7 @@
         <td>
             <asp:Button ID="btnRegister" runat="server" OnClick="btnRegister_Click" Text="Sign up" CssClass="button" />
         </td>
-        <td>
-            &nbsp;</td>
+        <td></td>
     </tr>
 </table>
 </asp:Content>

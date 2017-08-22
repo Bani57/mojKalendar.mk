@@ -3,6 +3,10 @@
     font-family: 'CMU Serif';
     src: url(Fonts/cmunrm.ttf) format('truetype');
 }
+.calendar
+{
+    text-shadow: none;
+}
 .calendar a
 {
     text-decoration: none;
@@ -25,21 +29,14 @@
     border-top: 5px solid white;
     border-bottom: 5px solid white;
     color: white;
+    text-shadow: none;
     font-weight: bold;
 }
 #buttons
 {
     margin: auto;
-    padding-left: 200px;
+    margin-top: 30px;
     width: 50%;
-}
-#buttons :first-child
-{
-    margin-left: 0;
-}
-#buttons :last-child
-{
-    margin-right: 0;
 }
 .button
 {
@@ -109,6 +106,7 @@
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     background-color: rgba(127,127,127,0.5);
     color: white;
 }
@@ -118,6 +116,7 @@
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     background-color: rgba(127,127,127,0.5);
     color: white;
 }
@@ -128,6 +127,7 @@
     width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     background-color: rgba(127,127,127,0.5);
     color: white;
     text-align:center;
@@ -179,6 +179,12 @@
 	border-top:1px solid #FFF;
 	border-bottom:1px solid #FFF;
 }
+#time
+{
+    font-size: larger;
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .dropdown
 {
     font-family: 'CMU Serif',serif;
@@ -196,6 +202,11 @@ option
 {
     font-family: 'CMU Serif',serif;
     font-size: large;
+}
+.events
+{
+    text-shadow: none;
+    margin-bottom: 20px;
 }
 .radiored input
 {
