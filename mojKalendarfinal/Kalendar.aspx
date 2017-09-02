@@ -28,22 +28,25 @@
         <asp:GridView CssClass="events" align="center" ID="gvEvents" runat="server" AutoGenerateColumns="False" BackColor="White" BorderColor="#757575" BorderStyle="Groove" BorderWidth="5px" CellPadding="3" OnRowDeleting="gvEvents_RowDeleting" Visible="False" AllowPaging="True" AllowSorting="True" OnPageIndexChanging="gvEvents_PageIndexChanging" OnSorting="gvEvents_Sorting" PageSize="5">
             <AlternatingRowStyle BackColor="#DCDCDC" />
             <Columns>
-                <asp:BoundField DataField="EventName" HeaderText="Name" SortExpression="EventName" >
+                <asp:BoundField DataField="EventName" HeaderText="Name" SortExpression="EventName" ReadOnly="True" >
                 <ItemStyle HorizontalAlign="Center" Wrap="False" />
                 </asp:BoundField>
                 <asp:TemplateField HeaderText="Description">
+                    <EditItemTemplate>
+                        <asp:TextBox ID="txtEditDescription" runat="server" CssClass="text" MaxLength="64" placeholder="Event description" Rows="4" Text='<%# Bind("Description") %>' TextMode="MultiLine"></asp:TextBox>
+                    </EditItemTemplate>
                     <ItemTemplate>
-                        <asp:Label ID="lblDescription" runat="server" Text='<%# Eval("Description") %>'></asp:Label>
+                        <asp:Label ID="lblDescription" runat="server" Text='<%# Bind("Description") %>'></asp:Label>
                     </ItemTemplate>
                     <ItemStyle HorizontalAlign="Center" Wrap="True" />
                 </asp:TemplateField>
-                <asp:BoundField DataField="Date" DataFormatString="{0:dd.MM.yyyy}" HeaderText="Date" SortExpression="Date" >
+                <asp:BoundField DataField="Date" DataFormatString="{0:dd.MM.yyyy}" HeaderText="Date" SortExpression="Date" ReadOnly="True" >
                 <ItemStyle HorizontalAlign="Center" />
                 </asp:BoundField>
-                <asp:BoundField DataField="Time" HeaderText="Time" SortExpression="Time" DataFormatString="{0:HH:mm}" >
+                <asp:BoundField DataField="Time" HeaderText="Time" SortExpression="Time" DataFormatString="{0:HH:mm}" ReadOnly="True" >
                 <ItemStyle HorizontalAlign="Center" />
                 </asp:BoundField>
-                <asp:CommandField ButtonType="Button" ShowDeleteButton="True">
+                <asp:CommandField ButtonType="Button" ShowDeleteButton="True" DeleteText="Delete event">
                 <ControlStyle CssClass="button2 blue" />
                 <ItemStyle HorizontalAlign="Center" />
                 </asp:CommandField>
