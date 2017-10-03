@@ -11,9 +11,9 @@
     </asp:Calendar>
     <asp:Image class=image ID="imgSide" runat="server" ImageUrl="~/Images/6.jpg"/>
     <div id="buttons">
-    <asp:Button CssClass="button green" ID="btnSignOut" runat="server" OnClick="btnSignOut_Click" Text="Sign out" CausesValidation="False" />
-    <asp:Button CssClass="button red" ID="btnCustomize" runat="server" OnClick="btnCustomize_Click" Text="Customize calendar" CausesValidation="False" />
-    <asp:Button CssClass="button yellow" ID="btnAddEvent" runat="server" Enabled="False" OnClick="btnAddEvent_Click" Text="Add event" CausesValidation="False" />
+    <asp:Button CssClass="button blue" ID="btnSignOut" runat="server" OnClick="btnSignOut_Click" Text="Sign out" CausesValidation="False" />
+    <asp:Button CssClass="button blue" ID="btnCustomize" runat="server" OnClick="btnCustomize_Click" Text="Customize calendar" CausesValidation="False" />
+    <asp:Button CssClass="button blue" ID="btnAddEvent" runat="server" Enabled="False" OnClick="btnAddEvent_Click" Text="Add event" CausesValidation="False" />
     <asp:Button CssClass="button blue" ID="btnViewEvents" runat="server" OnClick="btnViewEvents_Click" Text="View events" CausesValidation="False" />
     </div>
         <asp:RadioButtonList align="center" CssClass="option radioblue" ID="rblViewEvents" runat="server" AutoPostBack="True" OnSelectedIndexChanged="rblViewEvents_SelectedIndexChanged" RepeatDirection="Horizontal" Visible="False" Width="50%">
@@ -66,7 +66,7 @@
             <tr>
                 <td>Calendar size</td>
                 <td>
-                    <asp:RadioButtonList CssClass="radiored" ID="rblSize" runat="server" AutoPostBack="True" OnSelectedIndexChanged="rblSize_SelectedIndexChanged" RepeatDirection="Horizontal" >
+                    <asp:RadioButtonList CssClass="radioblue" ID="rblSize" runat="server" AutoPostBack="True" OnSelectedIndexChanged="rblSize_SelectedIndexChanged" RepeatDirection="Horizontal" >
                         <asp:ListItem Value="35">Small</asp:ListItem>
                         <asp:ListItem Selected="True" Value="50">Medium</asp:ListItem>
                         <asp:ListItem Value="75">Large</asp:ListItem>
@@ -77,21 +77,21 @@
             <tr>
                 <td>Background color</td>
                 <td>
-                    <asp:DropDownList CssClass="dropdown red" ID="ddlBackground" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlBackground_SelectedIndexChanged">
+                    <asp:DropDownList CssClass="dropdown blue" ID="ddlBackground" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlBackground_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>Header color</td>
                 <td>
-                    <asp:DropDownList CssClass="dropdown red" ID="ddlHeader" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlHeader_SelectedIndexChanged">
+                    <asp:DropDownList CssClass="dropdown blue" ID="ddlHeader" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlHeader_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>Calendar text size</td>
                 <td>
-                    <asp:RadioButtonList ID="rblCalendarTextSize" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblCalendarTextSize_SelectedIndexChanged" CssClass="radiored">
+                    <asp:RadioButtonList ID="rblCalendarTextSize" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblCalendarTextSize_SelectedIndexChanged" CssClass="radioblue">
                         <asp:ListItem Selected="True" Value="Large">Small</asp:ListItem>
                         <asp:ListItem Value="Larger">Medium</asp:ListItem>
                         <asp:ListItem Value="XLarge">Large</asp:ListItem>
@@ -101,14 +101,14 @@
             <tr>
                 <td>Day border style</td>
                 <td>
-                    <asp:DropDownList CssClass="dropdown red" ID="ddlDayBorderStyle" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlDayBorderStyle_SelectedIndexChanged">
+                    <asp:DropDownList CssClass="dropdown blue" ID="ddlDayBorderStyle" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlDayBorderStyle_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>Weekday name style</td>
                 <td>
-                    <asp:RadioButtonList ID="rblWeekdayName" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblWeekdayName_SelectedIndexChanged" CssClass="radiored">
+                    <asp:RadioButtonList ID="rblWeekdayName" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblWeekdayName_SelectedIndexChanged" CssClass="radioblue">
                         <asp:ListItem Selected="True" Value="Short">Short</asp:ListItem>
                         <asp:ListItem Value="Full">Full</asp:ListItem>
                         <asp:ListItem Value="FirstLetter">First letter</asp:ListItem>
@@ -120,7 +120,7 @@
             <tr>
                 <td>Weekday name size</td>
                 <td>
-                    <asp:RadioButtonList ID="rblWeekdayTextSize" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblWeekdayTextSize_SelectedIndexChanged" CssClass="radiored">
+                    <asp:RadioButtonList ID="rblWeekdayTextSize" runat="server" RepeatDirection="Horizontal" AutoPostBack="True" OnSelectedIndexChanged="rblWeekdayTextSize_SelectedIndexChanged" CssClass="radioblue">
                         <asp:ListItem Selected="True" Value="Large">Small</asp:ListItem>
                         <asp:ListItem Value="Larger">Medium</asp:ListItem>
                         <asp:ListItem Value="XLarge">Large</asp:ListItem>
@@ -130,29 +130,29 @@
             <tr>
                 <td>Today color</td>
                 <td>
-                    <asp:DropDownList CssClass="dropdown red" ID="ddlTodayColor" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlTodayColor_SelectedIndexChanged">
+                    <asp:DropDownList CssClass="dropdown blue" ID="ddlTodayColor" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlTodayColor_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>Selected day color</td>
                 <td>
-                    <asp:DropDownList CssClass="dropdown red" ID="ddlSelectedDayColor" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlSelectedDayColor_SelectedIndexChanged">
+                    <asp:DropDownList CssClass="dropdown blue" ID="ddlSelectedDayColor" runat="server" AutoPostBack="True" OnSelectedIndexChanged="ddlSelectedDayColor_SelectedIndexChanged">
                     </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>Show previous and next month names</td>
                 <td>
-                    <asp:CheckBox ID="chbShowMonths" runat="server" AutoPostBack="True" OnCheckedChanged="chbShowMonths_CheckedChanged" CssClass="radiored" Text="Show month names" />
+                    <asp:CheckBox ID="chbShowMonths" runat="server" AutoPostBack="True" OnCheckedChanged="chbShowMonths_CheckedChanged" CssClass="radioblue" Text="Show month names" />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnPreferences" runat="server" OnClick="btnPreferences_Click" Text="Save preferences" CssClass="button2 red" />
+                    <asp:Button ID="btnPreferences" runat="server" OnClick="btnPreferences_Click" Text="Save preferences" CssClass="button2 blue" />
                 </td>
                 <td>
-                    <asp:Button ID="btnSetDefaults" runat="server" OnClick="btnSetDefaults_Click" Text="Set defaults" CssClass="button2 red" />
+                    <asp:Button ID="btnSetDefaults" runat="server" OnClick="btnSetDefaults_Click" Text="Set defaults" CssClass="button2 blue" />
                 </td>
             </tr>
         </table>
@@ -172,7 +172,7 @@
                         <asp:TextBox placeholder="Name of event" CssClass="textbox" ID="txtEventName" runat="server" MaxLength="30"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEventName" Display="Dynamic" ErrorMessage="You must enter a name for the event!" Font-Bold="True" ForeColor="#F2CF66"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtEventName" Display="Dynamic" ErrorMessage="You must enter a name for the event!" Font-Bold="True" ForeColor="#3498DB"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -181,24 +181,24 @@
                         <asp:TextBox placeholder="Event description" CssClass="text" ID="txtDescription" runat="server" MaxLength="64" Rows="4" TextMode="MultiLine"></asp:TextBox>
                     </td>
                     <td>
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtDescription" Display="Dynamic" ErrorMessage="You must describe the event!" Font-Bold="True" ForeColor="#F2CF66"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="txtDescription" Display="Dynamic" ErrorMessage="You must describe the event!" Font-Bold="True" ForeColor="#3498DB"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
                     <td>When will it start?</td>
                     <td>
-                        <asp:DropDownList CssClass="dropdown yellow" ID="ddlStartHours" runat="server">
-                        </asp:DropDownList><span id="time">:</span><asp:DropDownList CssClass="dropdown yellow" ID="ddlStartMinutes" runat="server">
+                        <asp:DropDownList CssClass="dropdown blue" ID="ddlStartHours" runat="server">
+                        </asp:DropDownList><span id="time">:</span><asp:DropDownList CssClass="dropdown blue" ID="ddlStartMinutes" runat="server">
                         </asp:DropDownList>
                     </td>
                     <td></td>
                 </tr>
                 <tr>
                     <td>
-                        <asp:Button ID="btnSaveEvent" runat="server" OnClick="btnSaveEvent_Click" Text="Schedule event" CssClass="button2 yellow" />
+                        <asp:Button ID="btnSaveEvent" runat="server" OnClick="btnSaveEvent_Click" Text="Schedule event" CssClass="button2 blue" />
                     </td>
                     <td>
-                        <asp:Button ID="btnClearEvent" runat="server" OnClick="btnClearEvent_Click" Text="Clear info" CssClass="button2 yellow" CausesValidation="False" />
+                        <asp:Button ID="btnClearEvent" runat="server" OnClick="btnClearEvent_Click" Text="Clear info" CssClass="button2 blue" CausesValidation="False" />
                     </td>
                     <td></td>
                 </tr>
